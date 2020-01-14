@@ -1,2 +1,2 @@
 # BMC_Application
-BMC web application
+An application where the teacher can assess assignments submitted to the student. 
