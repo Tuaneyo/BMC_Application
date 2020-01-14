@@ -1,0 +1,221 @@
+/* #ad6ab5 purple*/
+/* #7769c8 purple-blue*/
+/* #4d67d9 blue*/
+/* #54e470 green*/
+/* #e04b4b red*/
+
+.box-shadow-light{
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,.12), 0px 0px 10px -4px rgba(0,0,0,.24);
+    -webkit-box-shadow:  0px 0px 2px 0px rgba(0,0,0,.12), 0px 0px 10px -4px rgba(0,0,0,.24);
+    -moz--box-shadow:  0px 0px 2px 0px rgba(0,0,0,.12), 0px 0px 10px -4px rgba(0,0,0,.24);
+}
+
+.user-card-wrap{
+    border: 1px solid #cdcdcd;
+    position: relative;
+    padding: 15px;
+    height: 100%;
+    transition: all .55s;
+    -webkit-transition: all .55s;
+}
+.user-card-header{
+    height: 62px;
+    background: #6f96c0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+    left: 0;
+    opacity: .55;
+}
+
+.user-card-profile{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 104px;
+}
+
+.user-card-footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    padding: 27px 15px;
+}
+
+.profiler-img img{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    background: rgba(255,255,255,.9);
+    border-width: 1px;
+}
+
+.profiler-name{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px auto;
+}
+
+
+
+.all-user-wrap{
+    overflow-y: scroll;
+}
+
+.msg-top{
+    background: white;
+    padding: 2rem;
+    color: #555555;
+}
+
+
+#user-email{
+    width: 100%;
+    word-wrap: break-word;
+    display: inline-block;
+}
+
+.all-users{
+    overflow: hidden;
+}
+
+.all-user-wrap > .all-users{
+    margin-top: unset !important;
+}
+
+.all-users, .user-info{
+    background: white;
+    border-radius: 2px;
+    border: 1px solid #dadada;
+    transition: all .55s;
+    -webkit-transition: all .55s;
+    color: #212529;
+}
+
+.all-users, .all-users:hover{
+    color: #212529;
+}
+
+.all-users:hover{
+    border-color: #dadada;
+    background: #f5f5f5;
+    cursor: pointer;
+}
+
+.all-user-icon, .block-user-icon{
+    color: white;
+    border-radius: 100%;
+    text-transform: uppercase;
+    width: 60px;
+    height: 60px;
+}
+
+.all-users-content{
+    margin-left: 1rem;
+}
+
+.all-user-name{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.all-user-email{
+    color: #404040;
+}
+
+.mt1{
+    margin-top: 1.6rem;
+}
+
+.all-user-arrow{
+    font-size: 14px;
+}
+
+.all-user-arrow i{
+    position: relative;
+    right: 0;
+    transition: all .55s;
+    -webkit-transition: all .55s;
+}
+
+.all-users:hover .all-user-arrow i{
+    right: -5px;
+    color: #4d67d9;
+}
+
+.user-name{
+    width: 100%;
+    text-align: center;
+}
+
+table.user-table td, table.user-table th{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    vertical-align: center;
+}
+
+.profiler-company{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profiler-company > span{
+    padding: .25rem;
+}
+
+.download-document, table.user-table td, table.user-table th{
+    word-break: break-word;
+}
+
+table.user-table th{
+    color: #212121;
+    padding-left: 0;
+    padding-right: 0;
+    width: 50%;
+}
+
+/* width */
+.all-user-wrap::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+.all-user-wrap::-webkit-scrollbar-track {
+    background: #cdcdcd;
+}
+
+/* Handle */
+.all-user-wrap::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+.all-user-wrap::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Adding color to the Navbar on mobile */
+@media only screen and (max-width: 768px) {
+    .profiler-name{
+        font-size: 17px;
+    }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    .profiler-name{
+        font-size: 16px;
+    }
+
+    .ft-10-sm{
+        font-size: 10px !important;
+    }
+}
+

@@ -1,0 +1,38 @@
+/* #ad6ab5 purple*/
+/* #7769c8 purple-blue*/
+/* #4d67d9 blue*/
+/* #54e470 green*/
+/* #e04b4b red*/
+
+#addAssigment-form{
+    display: none;
+}
+
+
+.modal-body-wrap, .handin-list-file, .download-wrap, .download-form{
+    word-break: break-word;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .rating .assigment-wrap{
+        padding: 0 !important;
+    }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    .rating .assigment-wrap{
+        padding: 0 !important;
+    }
+
+    .rating-user-info, .rating .breadcrumb-wrap{
+        font-size: 12px;
+    }
+
+    #handin-time .handin-icon{
+        font-size: 17px;
+    }
+
+}

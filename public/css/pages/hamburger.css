@@ -1,0 +1,101 @@
+/* #ad6ab5 purple*/
+/* #7769c8 purple-blue*/
+/* #4d67d9 blue*/
+/* #54e470 green*/
+/* #e04b4b r0d*/
+
+#hammenu{
+    display: none;
+}
+#centerModalHamburger .modal-dialog{
+    max-width: 450px !important;
+}
+#ham-dropdown{
+    transform: translate3d(0px, 47px, 0px) !important;
+    width: 100% !important;
+    border-radius: 0 !important;
+}
+
+#ham-dropdown .dropdown-item:hover, .dropdown-item.active{
+    background: rgba(119, 105, 200, 0.5) !important;
+    color: white;
+}
+
+#news-nav{
+    padding: 0;
+    z-index: 999;
+}
+
+#news-nav .collapse:not(.show){
+    display: block !important;
+}
+
+#news-nav .form-inline{
+    justify-content: flex-end;
+}
+
+#navbar-ham{
+    color: #f1f1f1;
+    text-shadow: 0 0 1px black;
+}
+
+.ham-link{
+    padding: .5rem;
+    border-bottom: 1px solid #cdcdcd;
+    font-size: 18px;
+}
+
+.nav-icon{
+    padding: 0 15px;
+    width: 50px;
+}
+
+.nav-link{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nav-item-bottom{
+    position: absolute;
+    bottom: 0;
+}
+
+.nav-link-bottom{
+    border-top: 1px solid #cdcdcd;
+    border-bottom: 0;
+}
+
+@media (max-width: 1199.98px){
+    #hammenu{
+        display: block;
+    }
+
+
+
+}
+
+
+/* Adding color to the Navbar on mobile */
+@media only screen and (max-width: 768px) {
+    #news-nav{
+        padding: 2px;
+        background: transparent;
+        box-shadow: unset;
+    }
+
+    #news-nav .off-btn{
+        display: none;
+    }
+}
+
+
+/* Footer color for sake of consistency with Navbar */
+.page-footer {
+    background-color: #929FBA; }
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    #hammenu{
+        display: block;
+    }
+}

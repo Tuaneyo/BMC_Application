@@ -1,0 +1,76 @@
+﻿.cursorily{ cursor: pointer;}
+.hov:hover{ color: #000;}
+.ico-size{font-size: 16px;}
+.ico-size-month{font-size: 26px!important; line-height: 26px!important;}
+.ico-size-large{ font-size: 40px!important; line-height: 30px;}
+.dtp_main{ border: solid 2px #cdcdcd;
+    border-radius: 3px;
+    background-color: #ffffff;
+    padding: 8px 0 8px 8px;
+    cursor: pointer}
+.dtp_main span, .dtp_main i{ display: inline-block; padding-right: 8px;}
+.dtp_modal-win{    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    z-index: 10000;
+    background-image: url('https://adsd2019.clow.nl/ondernemer/img/dashboard/purple-blue.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;}
+.dtp_modal-content{ background-color: #fff; border-radius: 10px; width: 640px;z-index: 10000;
+    position: fixed; z-index: 10000; font-size: 16px;font-weight: normal;-webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    -webkit-animation: expand .55s;
+}
+.dtp_modal-content-no-time{ background-color: #fff; border-radius: 10px; width: 312px;
+    position: absolute; z-index: 1000; top: 100px; left: 100px; font-size: 16px;font-weight: normal;}
+.dtp_modal-title{ border-bottom: solid 3px #4d67d9; padding: 16px 36px; margin-bottom: 16px;  font-size: 22px; }
+.dtp_modal-cell-date{ width: 312px;  float: right; margin-top: 6px;margin-bottom: 10px;}
+.dtp_modal-cell-time{width: 300px;float: left;direction: ltr;border-right: solid 1px #000;display: flex;flex-direction: column;align-items: center;justify-content: center;}
+.dtp_modal-months{ color: #7d7d7d; text-align: center; font-size: 20px; padding: 0 20px;}
+.dtp_modal-months span{ display: inline-block; padding: 10px 20px; width: 215px;}
+.dtp_modal-calendar{ width: 266px; margin-left: 22px; }
+.dtp_modal-calendar-cell{ width: 38px; padding: 7px 0; display: inline-block; text-align: center;}
+.dtp_modal-colored{ color: #4d67d9; }
+.dtp_modal-grey{ color: #7d7d7d; }
+.dtp_modal-cell-selected{ background-color: #4d67d9;
+    border-radius: 48%;
+    color: white;
+    font-weight: 600;transition: background-color 1s ease-out;}
+.dtp_modal-time-block{    height: 210px;width: 310px;display: flex;flex-direction: column;justify-content: center;align-items: center;margin: .5em auto;}
+.dpt_modal-button{ background-color: #4d67d9;
+    color: #fff;
+    font-size: 22px;
+    padding: 8px 40px;
+    float: left;
+    text-align: center;
+    display: inline-block;
+    margin-left: 15px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+.dtp_modal-time-line{ text-align: center; color: #7d7d7d; font-size: 20px; padding-top: 15px;  }
+.dtp_modal-time-mechanic{ padding-top: 16px;}
+.dtp_modal-append{ color: #7d7d7d; font-weight: normal; text-align: center;}
+.dtp_modal-midle{ display: inline-block; width: 40px; }
+.dtp_modal-midle-dig{display: inline-block; width: 16px; text-align: center; }
+.dtp_modal-digits{ font-size: 50px;}
+.dtp_modal-digit{  }
+.date-label{margin: 1.6rem auto 1rem auto;
+    font-weight: bold;
+    font-size: 17px;
+    color: #4d66d9;
+}
+.dpt_modal-button:hover{background-color: #1f3bb7;transition: all .55s;-webkit-transition: all .55s;}
+#picker:hover{
+    border-color: #4d67d9;
+    transition: all .55s;
+    -webkit-transition: all .55s;
+}
+@-webkit-keyframes expand{
+    0%{top:20%}
+    100%{top:50%}
+}
