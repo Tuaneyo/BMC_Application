@@ -159,11 +159,11 @@ class RolesAndPermissionsSeeder extends Seeder
                 ]
             );
 
-        $user = User::where('email', 'b.hamming@windesheim.nl')->first();
+        $user = User::where('email', 'tuan@gmail.com')->first();
         $user->assignRole(['administrator', 'docent']);
 
         $users = User::where([
-            ['email', '<>', 'b.hamming@windesheim.nl'],
+            ['email', '<>', 'tuan@gmail.com'],
         ])->get();
     }
 }
